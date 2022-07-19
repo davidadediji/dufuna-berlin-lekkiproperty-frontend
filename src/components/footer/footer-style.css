@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.footer-details{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8px;
+}
+
+.footer-details li{
+    margin-left: 8px;
+}
+
+.footer-details-copy{
+    font-weight: 400;
+    font-size: 14px;
+    color:#222;
+    display: inline-flex;
+}
+
+.language{
+    font-weight: 500;
+    font-size: 14px;
+    color: #222;
+    display: inline-flex; 
+}
+
+.language img{
+    padding-right: 13px;
+}

@@ -1,0 +1,131 @@
+.filter-container{
+    max-width: 557px;
+    height:666px;
+    border: 1px solid #E5E5E5;
+    margin: auto;
+    margin-top: 64px;
+}
+.filter-header{
+    display: flex;
+    gap:212.5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20.5px;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+.price-range{
+    margin-left: 16px;
+    margin-top:24px;
+    padding-bottom: 30px;
+    margin-right: 16px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.price-range h1{ 
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #222;
+}
+.room{
+    margin-left: 16px;
+    margin-top:24px;
+    padding-bottom: 30px;
+    margin-right: 16px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.room h1{ 
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #222;
+}
+.filter-condition{
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 44px;
+    margin-left: 16px;
+    margin-top:24px;
+    margin-right: 16px;
+    border-bottom: 1px solid #E5E5E5;
+    color: #222;
+}
+.clear{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #222222;
+}
+.filter-options{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.result-btn{
+    background-color: #222222;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+}
+.input-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dropdown-field-box{
+    border: 2px solid #E5E5E5;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 7px;
+}
+.dropdown-field-box input, select{
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    appearance: none;
+}
+
+.dropdown-field-box p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #717171;
+}
+
+.special-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.symbol{
+    display: inline-flex;
+}
+.symbol p{
+    color: #222;
+}
+
+.arrow-down{
+    color: #212529;
+}

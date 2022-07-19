@@ -1,0 +1,71 @@
+.card-wrapper{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    width:224px;
+    margin-bottom: 20px;
+}
+
+.card-details{
+    font-weight: 500;
+    font-size: 15px;
+    color: #222;
+}
+
+.card-img{
+    max-width: 100%;
+    padding-bottom: 16px;
+    object-fit: cover;
+
+}
+
+.location-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property-distance{
+    padding-top: 2px;
+    padding-bottom: 8px;
+    color:#717171;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.property-type{
+    font-weight: 500;
+    font-size: 10px;
+    padding: 4px;
+}
+
+.property-box{
+    background: #F5F5F5;
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 4px;
+    font-weight: 500;
+    font-size: 10px;
+
+}
+
+.property-box img{
+    width:10px;
+    margin-right:3px;
+    place-content: center;
+}
+
+.property-price{
+    padding-top: 8px;
+}
+
+.property-facility{
+    display: flex;
+}
