@@ -34,7 +34,7 @@ const PropertyCardDetails = ()=>{
                         <p>Kitchen (1)</p>
                         <p>Toilets (3)</p>
                     </div>
-                    <div>
+                    <div className="property-description-realtor">
                         <p>3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.</p>
                     </div>
                     <p>Show more </p>

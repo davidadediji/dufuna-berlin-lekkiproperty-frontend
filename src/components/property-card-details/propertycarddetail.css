@@ -82,11 +82,23 @@
 .property-features{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    column-gap: 44px;
+    row-gap: 44px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #222222;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.property-description-realtor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
