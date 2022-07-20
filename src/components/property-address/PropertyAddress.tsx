@@ -1,7 +1,6 @@
 import LocationOnIcon from '@mui/icons-material/LocationOn';import CloseIcon from '@mui/icons-material/Close';
 import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
 import MainImg from '../../asserts/image/mainimg.png'
-import '../../index.css'
 import './property-address-style.css'
 
 const PropertyAddress = ()=>{
@@ -23,9 +22,9 @@ const PropertyAddress = ()=>{
                     </div>
                 </div>
                 <div className='property-room'>
-                    <p>Rooms</p>
-                    <div className='input-layout'>
-                        <div className='dropdown-field-box'>
+                    <p className='property-room-title'>Rooms</p>
+                    <div className='property-input-layout'>
+                        <div className='property-dropdown-field-box'>
                             <p>Bathroom</p>
                             <div className='special-select'>
 
@@ -38,7 +37,7 @@ const PropertyAddress = ()=>{
                                 <span className='arrow-down'><KeyboardArrowDown/></span>
                             </div>
                         </div>
-                        <div className='dropdown-field-box'>
+                        <div className='property-dropdown-field-box'>
                             <p>Bedroom</p>
                             <div className='special-select'>
                                 <select name="bedroom" id="bedroom">
@@ -50,7 +49,7 @@ const PropertyAddress = ()=>{
                                 <span className='arrow-down'><KeyboardArrowDown/></span>
                             </div>
                         </div>
-                        <div className='dropdown-field-box'>
+                        <div className='property-dropdown-field-box'>
                             <p>Seating room</p>
                             <div className='special-select'>
                                 <select name="seating-room" id="seat-room">
@@ -62,7 +61,7 @@ const PropertyAddress = ()=>{
                                 <span className='arrow-down'><KeyboardArrowDown/></span>
                             </div>
                         </div>
-                        <div className='dropdown-field-box'>
+                        <div className='property-dropdown-field-box'>
                             <p>Kitchen</p>
                             <div className='special-select'>
                                 <select name="kitchen" id="kitchen">
@@ -74,7 +73,7 @@ const PropertyAddress = ()=>{
                                 <span className='arrow-down'><KeyboardArrowDown/></span>
                             </div>
                         </div>
-                        <div className='dropdown-field-box'>
+                        <div className='property-dropdown-field-box'>
                             <p>Toilet</p>
                             <div className='special-select'>
                                 <select name="toilet" id="toilet">
@@ -91,10 +90,10 @@ const PropertyAddress = ()=>{
                 
             </div>
             <div className='horizontal'>
-                <hr className='deep'/>
+                <hr className='deep-dark-40'/>
             </div>
             <div className='bottom-nav'>
-                <p className='property-cancel'>Cancel</p>
+                <p className='back'>Back</p>
                 <button className='bg-dark'>Next</button>
             </div>
 

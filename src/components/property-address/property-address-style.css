@@ -64,10 +64,40 @@
     font-family: Inter;
 }
 
-.dropdown-field-box{
-    width: 450px;
-}
 
 .property-room p{
     padding-bottom: 10px;
+}
+
+.property-input-layout{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap:40px;
+    margin-top: 20px;
+}
+
+.property-dropdown-field-box{
+    border: 1px solid #e5e5e5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #717171;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.property-address-inputs{
+    margin-bottom: 100px;
+
+}
+
+.special-select select{
+    width: 500px;
+}
+
+.deep-dark-40{
+    width: 40%;
+    border: 1px solid #222222;
 }

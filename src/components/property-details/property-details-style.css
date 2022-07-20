@@ -1,71 +1,137 @@
-.property-details-container{
+.property-owner-container{
     display: flex;
-    overflow-y: hidden;
+    width: 100vw;
+    overflow-y:hidden;
 }
 
-.img-container{
-    height: 100%;
-    width: 34.55%;
+.property-owner-inputs{
+    margin-top: 39px;
+    margin-left: 55px;
+    margin-right: 40px;
 }
 
-.img-container img{
-    width: 100%;
-}
-
-
-.property-details-layout{
+.property-owner-layout{
     flex: 1;
-    width: 65.45%;
+    width:65.45%;
 }
 
-.property-details-inputs{
-    margin-top:39px;
-    margin-right: 47px;
-    margin-left: 56px;
+.main-img-container{
+    width:34.55%;
+    height:100%;
 }
-.close{
-    display: flex;
-    justify-content: flex-end;  
+
+.main-img-container img{
+    width: 100%;
+    height: 100%;
+}
+.property-close{
     color: #212529;
+
 }
 
-.property-details{
+.property-owner{
+    margin-top: 38.5px;
+
+}
+
+.property-owner p{
     font-weight: 500;
     font-size: 22px;
+    line-height: 26px;
     color: #222222;
-    padding-top: 39px;
-    border-bottom: 1px solid #e5e5e5;
-    margin-bottom: 34px;
-
-}
-
-.property-details p{
     padding-bottom: 16px;
 }
 
-.property-details-text{
-    border: 1px solid #e5e5e5;
-    display: flex;
-    align-items: center;
-    padding-right: 8px;
-    border-radius: 8px;
-    margin-bottom: 34px;
+.property-owner-input{
+    width: 100%;
+    
 }
 
-.property-details-text input{
+.property-owner-inputs{
+    margin-bottom: 100px;
+}
+
+.property-owner-input input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px ;
+}
+
+.property-owner{
+    padding-bottom: 34px;
+}
+
+.property-description p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    padding-bottom: 16px;
+}
+
+.property-description{
+    padding-bottom: 34px;
+}
+
+.property-validation p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    padding-bottom: 16px;
+}
+
+.description-text-area{
+    width:100%;
+}
+
+.description-text-area textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.date-1, .date-2{
+    width:45%;
+    border: 1px solid #e5e5e5;
+    border-radius:5px ;
+    padding: 5px;
+}
+
+.date-1 input, .date-2 input{
     width: 100%;
     border: none;
     outline: none;
-    padding-left: 8px;
-    padding-top: 18px;
-    padding-bottom: 18px;
     font-family: Inter;
+    font-size: 1rem;
+    -webkit-datetime-edit-year-field:not([aria-valuenow]);
+    -webkit-datetime-edit-month-field:not([aria-valuenow]);
+    -webkit-datetime-edit-day-field:not([aria-valuenow]);
+    color: transparent;
 }
 
-.dropdown-field-box{
-    width: 450px;
+.valid-input-container{
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.property-room p{
-    padding-bottom: 10px;
+.date-1 p, .date-2 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #717171;
 }
+
+.deep-dark{
+    width: 60%;
+    border: 1px solid #212529;
+}
+
