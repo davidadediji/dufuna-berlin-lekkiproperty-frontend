@@ -22,3 +22,37 @@
     flex: 1;
     width: 64.55%;
 }
+
+.center-uploaded{
+   margin: auto;
+   width: 476px;
+}
+
+.center-upload-showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-invisible{
+    display: grid;
+    grid-template-columns: 225px 225px;
+    gap: 23px;
+}
+
+.invisible-img-box{
+    background: #FFFFFF;
+    border: 1px dashed #B0B0B0;
+    height: 207px;
+}
+
+.invisible-img-box img{
+    display: block;
+    margin: auto;
+    margin-top: 89px;
+}
+
+.position-sticky{
+    position: sticky;
+    bottom: 0;
+}

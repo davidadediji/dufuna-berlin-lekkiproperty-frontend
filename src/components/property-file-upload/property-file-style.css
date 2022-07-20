@@ -78,3 +78,8 @@
     color: #222;
     text-decoration: underline;
 }
+
+.deep-dark-80{
+    width: 80%;
+    border: 1px solid #222;
+}

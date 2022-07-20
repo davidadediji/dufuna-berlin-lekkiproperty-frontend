@@ -7,6 +7,9 @@ import PropertyAddFirstPage from "./pages/PropertyAddPageFirst";
 import PropertyRequestDetailAddress from "./pages/PropertyRequestDetailAddress";
 import PropertyUploadFilePage from "./pages/UploadFilePage";
 import PropertyUploadedFilePage from "./pages/UploadedFilePage";
+import PropertyCardDetailsPage from "./pages/PropertyDetail";
+
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -14,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/property" element={<PropertyRequestAddress/>}/>
         <Route path="/filter" element={<FilterPage/>}/>
+        <Route path="/property-detail-1" element={<PropertyCardDetailsPage/>}/>
         <Route path="/property-1" element={<PropertyAddFirstPage/>}/>
         <Route path="/property-2" element={<PropertyRequestAddress/>}/>
         <Route path="/property-3" element={<PropertyRequestDetailAddress/>}/>
