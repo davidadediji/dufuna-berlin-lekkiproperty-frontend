@@ -1,142 +1,139 @@
 .property-add-container{
     display: flex;
-    width: 100vw;
-    height:100vh;
-    flex-direction: row;
-    background-color: #fff;
-    overflow-y: hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.property-details-container{
-    flex: 1;
-    padding-left: 55px;
-    padding-top: 39px;
-    padding-right:47px;
+
+.property-main-img-container{
+    width:34.5%;
+    height:100%;
 }
 
-.property-grid{
-    display: grid;
-    grid-template-columns:300px 300px 300px ;
-    row-gap: 20px;
-    column-gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #e5e5e5;
-}
-.property-grid-item{
-    border: 1px solid #e5e5e5;
+.property-main-img-container img{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4.5px;
-    font-weight: 500;
-    font-size: 18px;
-    border-radius: 10px;
-}
-
-.property-add-list{
-    padding-top: 34px;
+    height: 100%;
 
 }
 
-.property-grid-item:first-child{
-    border: 1px solid #222;
+.property-add-layout{
+    flex: 1;
+    width: 65.45;
 }
 
 .property-close{
     display: flex;
     justify-content: flex-end;
+    color: #212529;
 }
 
-.main-img-container{
-    height: 100%;
-    width: 35%;
+.property-add-inputs{
+    margin-top: 39px;
+    margin-right: 40px;
+    margin-left: 55px;
 }
 
-.main-img{
-    height:100%;
-    width: 100%;
+.property-add-type{
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom: 34px;
+}
+.property-type-q{
+    padding-top: 39px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #222222;
+}
+
+.property-grid{
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    gap: 15px;
+}
+
+.property-grid-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #222222;
 }
 
 .list-property{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
     padding-bottom: 10px;
-}
-
-.list-property-box{
-    border: 1px solid #e5e5e5;
+    padding-top: 34px;
 }
 
 .list-property-box-container{
     display: grid;
-    grid-template-columns: 280px 280px 280px;
-    column-gap: 50px;
+    grid-template-columns: 315px 315px 315px;
+    column-gap: 30px;
 }
 
 .list-property-box{
-   
     border: 1px solid #e5e5e5;
+    color: #717171;
     border-radius: 10px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    height:100px;
 }
 
-.list-property-box .box-title{
-   
-   padding-bottom: 8px;
+.box-title{
+    padding-bottom: 6px;
+    color: #222222;
+}
+
+.property-add-list{
+    margin-bottom: 200px;
 }
 
 .box-details{
+    color:#717171;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-    color: #717171;
-    text-align: left;
-    width:200px;
-
+    width: 200px;
 }
 
-.black{
-    width: 65%;
-}
-
-.horizontal{
-    padding-top: 132px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-}
-
-.deep{
-    width: 30%;
-    border-width: 2px;
-    background-color: #212121;
-
-}
 .bottom-nav{
     border-top: 1px solid #e5e5e5;
-    padding-left: 40px;
-    padding-top: 30px;
-    padding-right: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 55px;
+    padding-right:40px;
+    padding-top: 14px;
 }
 
-.bottom-nav .property-cancel{
-    color:#222;
-    text-decoration: underline;
+.back{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #222222;
+
 }
 
-.bottom-nav .bg-dark{
-    border: none;
+.bg-dark{
     background: #222222;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    color:#fff;
+    color: #fff;
     padding: 16px;
 }
- 
 
-
-
-
+.deep-black{
+    width: 20%;
+    border: 1px solid #212121;
+}
