@@ -1,6 +1,5 @@
-.property-address-container{
+.property-details-container{
     display: flex;
-    
     overflow-y: hidden;
 }
 
@@ -14,16 +13,15 @@
 }
 
 
-.property-address-layout{
+.property-details-layout{
     flex: 1;
     width: 65.45%;
 }
 
-.property-address-inputs{
+.property-details-inputs{
     margin-top:39px;
     margin-right: 47px;
     margin-left: 56px;
-    
 }
 .close{
     display: flex;
@@ -31,7 +29,7 @@
     color: #212529;
 }
 
-.property-address{
+.property-details{
     font-weight: 500;
     font-size: 22px;
     color: #222222;
@@ -41,11 +39,11 @@
 
 }
 
-.property-address p{
+.property-details p{
     padding-bottom: 16px;
 }
 
-.property-address-text{
+.property-details-text{
     border: 1px solid #e5e5e5;
     display: flex;
     align-items: center;
@@ -54,7 +52,7 @@
     margin-bottom: 34px;
 }
 
-.property-address-text input{
+.property-details-text input{
     width: 100%;
     border: none;
     outline: none;

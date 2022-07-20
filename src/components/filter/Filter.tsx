@@ -1,39 +1,39 @@
 import CloseIcon from '@mui/icons-material/Close';
 import './filter-style.css'
-import '../../index.css'
+// import '../../index.css'
 import { KeyboardArrowDown } from '@mui/icons-material';
 
 const Filter = ()=>{
     return(
-        <form action='' method='post' className="filter-container">
+        <div className="filter-container">
             <div className="filter-header">
                 <CloseIcon/>
                 <p>Filter</p>
             </div>
             <div className="price-range">
                 <h1>Price Range</h1>
-                <div className='input-layout'>
-                    <div className='dropdown-field-box'>
+                <div className='filter-input-layout'>
+                    <div className='filter-dropdown-field-box'>
                         <p>min price</p>
                         <div className='symbol'>
                             <p>&#8358;</p>
-                            <input type="text" />
+                            <p><input type="text" /></p>
                         </div>
                        
                     </div>
-                        <div className='dropdown-field-box'>
+                        <div className='filter-dropdown-field-box'>
                             <p>max price</p>
                             <div className='symbol'>
-                                <p>&#8358;</p>
-                                <input type="text" />
+                                <p className='naira-symbol'>&#8358;</p>
+                                <p className='price-input'><input type="text" /></p>
                             </div>
                     </div>
                 </div>
             </div>
             <div className="room">
                 <h1>Rooms</h1>
-                <div className='input-layout'>
-                    <div className='dropdown-field-box'>
+                <div className='filter-input-layout'>
+                    <div className='filter-dropdown-field-box'>
                         <p>Bathroom</p>
                         <div className='special-select'>
 
@@ -46,7 +46,7 @@ const Filter = ()=>{
                             <span className='arrow-down'><KeyboardArrowDown/></span>
                         </div>
                     </div>
-                    <div className='dropdown-field-box'>
+                    <div className='filter-dropdown-field-box'>
                         <p>Bedroom</p>
                         <div className='special-select'>
                             <select name="bedroom" id="bedroom">
@@ -58,7 +58,7 @@ const Filter = ()=>{
                             <span className='arrow-down'><KeyboardArrowDown/></span>
                         </div>
                     </div>
-                    <div className='dropdown-field-box'>
+                    <div className='filter-dropdown-field-box'>
                         <p>Seating room</p>
                         <div className='special-select'>
                             <select name="seating-room" id="seat-room">
@@ -70,7 +70,7 @@ const Filter = ()=>{
                             <span className='arrow-down'><KeyboardArrowDown/></span>
                         </div>
                     </div>
-                    <div className='dropdown-field-box'>
+                    <div className='filter-dropdown-field-box'>
                         <p>Kitchen</p>
                         <div className='special-select'>
                             <select name="kitchen" id="kitchen">
@@ -82,7 +82,7 @@ const Filter = ()=>{
                             <span className='arrow-down'><KeyboardArrowDown/></span>
                         </div>
                     </div>
-                    <div className='dropdown-field-box'>
+                    <div className='filter-dropdown-field-box'>
                         <p>Toilet</p>
                         <div className='special-select'>
                             <select name="toilet" id="toilet">
@@ -101,7 +101,7 @@ const Filter = ()=>{
                 <p className='clear'>Clear all</p>
                 <button className='result-btn'>Show result</button>
             </div>
-        </form>
+        </div>
     )
 }
 

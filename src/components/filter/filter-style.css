@@ -30,6 +30,13 @@
     padding-bottom: 10px;
     color: #222;
 }
+
+.filter-input-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .room{
     margin-left: 16px;
     margin-top:24px;
@@ -53,6 +60,43 @@
     border-bottom: 1px solid #E5E5E5;
     color: #222;
 }
+
+.filter-dropdown-field-box{
+    border: 1px solid #e5e5e5;
+    width: 250px;
+    padding-top: 6px;
+    padding-left:6px;
+    padding-bottom: 6px;
+    border-radius: 7px;
+}
+.filter-dropdown-field-box input{
+    border: none;
+    outline: none;
+    padding: 4px;
+    display: block;
+    width: 200px;
+}
+
+.filter-dropdown-field-box p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #717171;
+}
+
+.special-select{
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-select select{
+    width: 320px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+
 .clear{
     
     font-weight: 500;
@@ -78,4 +122,25 @@
     color: #fff;
     padding: 16px;
     cursor: pointer;
+}
+
+.symbol{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+.naira-symbol{
+    color: #222;
+}
+
+.symbol input{
+    width: 100%;
+    padding-right:10px ;
+}
+.arrow-down{
+    color: #212529;
 }

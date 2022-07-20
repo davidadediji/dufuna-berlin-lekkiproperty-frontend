@@ -1,6 +1,7 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MainImg from '../../asserts/image/mainimg.png'
 import './property-add-style.css'
+import '../../index.css'
 import { propertyDetails } from '../../models/propertyDetails';
 
 const PropertyAdd = ()=>{
