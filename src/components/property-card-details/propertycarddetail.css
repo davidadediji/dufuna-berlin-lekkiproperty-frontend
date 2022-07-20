@@ -38,3 +38,34 @@
     padding: 4px;
     margin-left: 16px;
 }
+
+.property-details-right{
+    padding-left: 90px;
+}
+
+.title-property-detail-right{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 51px;
+}
+
+.right-desc{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #222222;
+    text-decoration: underline;
+    padding-right: 32px;
+}
+
+.right-view{
+    font-weight: 500;
+    font-size: 12px;
+    color: #717171;
+
+}
+
+
+
+
+/* 731 */
