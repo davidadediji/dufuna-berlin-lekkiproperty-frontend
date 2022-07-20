@@ -27,7 +27,7 @@ const PropertyCardDetails = ()=>{
                         <p>Owned by: </p>
                         <p>IJT Realtor</p>
                     </div>
-                    <div>
+                    <div className="property-features">
                         <p>Bedroom (3)</p>
                         <p>Bathroom (3)</p>
                         <p>Sitting room (1)</p>

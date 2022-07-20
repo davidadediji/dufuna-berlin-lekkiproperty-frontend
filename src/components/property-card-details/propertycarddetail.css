@@ -62,10 +62,32 @@
     font-weight: 500;
     font-size: 12px;
     color: #717171;
-
 }
 
+.property-owned{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    display: flex;
+    border-bottom:1px solid #e5e5e5 ;
+    padding-bottom: 22px;
+}
 
+.property-owned p:last-child{
+    text-decoration: underline;
+    padding-left:29px ;
+}
+
+.property-features{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
 
 
 /* 731 */

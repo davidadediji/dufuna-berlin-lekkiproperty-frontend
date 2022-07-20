@@ -40,3 +40,7 @@
   .avatar > img{
     margin-right: 8px;
   }  
+
+  .no-underline{
+    text-decoration: none;
+  }

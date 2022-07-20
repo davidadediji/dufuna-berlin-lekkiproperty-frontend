@@ -1,5 +1,6 @@
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
+import { Link } from 'react-router-dom';
 import './navbar-style.css'
 const Navbar = ()=>{
     return(
@@ -15,7 +16,11 @@ const Navbar = ()=>{
             <li>Mini Flat</li>
             <li>Shop In a Mall</li>
             <li className='arrow-right'><ArrowCircleRightOutlinedIcon/></li>
-            <li><button className='filter-btn'><FilterAltIcon/>Filters</button></li>
+            <li>
+                <Link className="no-underline" to='/filter'>
+                    <button className='filter-btn'><FilterAltIcon/>Filters</button>
+                </Link>
+            </li>
         </ul>  
         
     </nav>

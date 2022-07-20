@@ -3,6 +3,7 @@ import Bath from '../../asserts/bath.svg'
 import Bed from '../../asserts/bed.svg'
 import './card-style.css'
 import { cardProps } from '../../interfaces/cardProps'
+import { Link } from 'react-router-dom'
 
 
 
@@ -12,6 +13,8 @@ const Card = (props:cardProps)=>{
         <div className='card-wrapper'>
           {props.cards.map(card=>{
             return(
+                <Link className="no-underline" to='/property-detail-1'>
+                
                 <div className="card-container">
                     <div className="card-img">
                         <img src={card.propertyimg}  alt="picture of property" />
@@ -31,6 +34,7 @@ const Card = (props:cardProps)=>{
 
                     </div>
                 </div>
+                </Link>
             );
           })}
         </div>
