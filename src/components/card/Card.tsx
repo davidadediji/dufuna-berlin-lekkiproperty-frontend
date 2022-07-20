@@ -2,21 +2,9 @@ import Toilet from '../../asserts/toilet.svg'
 import Bath from '../../asserts/bath.svg'
 import Bed from '../../asserts/bed.svg'
 import './card-style.css'
-import { color } from '@mui/system'
+import { cardProps } from '../../interfaces/cardProps'
 
-interface cardProps{
-    cards:Array<{
-    id:number
-    propertyimg:string
-    city:string
-    distance:string
-    noOfToilets:number,
-    noOfBathrooms:number,
-    noOfBedrooms:number,
-    propertyType:boolean
-    price:string
-    }>
-}
+
 
 
 const Card = (props:cardProps)=>{

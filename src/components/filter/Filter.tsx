@@ -1,6 +1,6 @@
 import CloseIcon from '@mui/icons-material/Close';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import './filter-style.css'
+import '../../index.css'
 import { KeyboardArrowDown } from '@mui/icons-material';
 
 const Filter = ()=>{
