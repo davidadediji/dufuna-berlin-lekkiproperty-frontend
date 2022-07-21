@@ -4,6 +4,7 @@ import Footer from "../components/footer/Footer";
 import Card from "../components/card/Card";
 import PageNav from "../components/page-nav/PageNav";
 import { cards } from "../models/card";
+import '../index.css'
 
 
 
@@ -12,11 +13,15 @@ const Home = ()=>{
     return(
            
             <div className="container">
-            <Header/>
-            <Navbar/>
+            <div className="position-sticky-top">
+                <Header/>
+                <Navbar/>
+            </div>
             <Card cards={cards}/>
-            <PageNav/>
-            <Footer/>
+            <div className="position-sticky-bottom">
+                <PageNav/>
+                <Footer/>
+            </div>
             </div>
             
             
