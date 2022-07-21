@@ -1,0 +1,22 @@
+.page-nav-align{
+    list-style-type: none;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.page-nav-center{
+    display: flex;
+    padding-left: 32px;
+    justify-content: center;
+    background: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-nav-align li{
+    padding-right: 24px;
+    
+}
