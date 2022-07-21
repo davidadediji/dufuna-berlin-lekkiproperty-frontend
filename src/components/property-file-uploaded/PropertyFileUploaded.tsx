@@ -4,6 +4,8 @@ import '../property-file-uploaded/property-file-uploaded-style.css'
 import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
 import VisibleImage from '../../asserts/image/Frame 102.png'
 import Vector from '../../asserts/Vector.png'
+import '../../index.css'
+import { Link } from 'react-router-dom';
 
 const PropertyUploadedFile = ()=>{
     return(
@@ -13,9 +15,11 @@ const PropertyUploadedFile = ()=>{
             </div>
             <div className='uploaded-file-action-container'>
                 <div className='uploaded-file-action'>
-                    <div className='property-close postion-sticky'>
+                    <Link to="/">
+                    <div className='property-close postion-sticky-top'>
                         <CloseIcon/>
                     </div>
+                    </Link>
                     <div className='center-uploaded'>
                         <div className='center-upload-showcase'>
                             <p>Add at least 5 images</p>
@@ -46,9 +50,14 @@ const PropertyUploadedFile = ()=>{
                 </div>
                 <div className='position-sticky'>
                     <hr className='deep-dark-100'/>
-                    <div className='bottom-nav'>
+                    <div className='bottom-nav position-sticky-bottom'>
+                        <Link to="/property-4">
                         <p className='back'>Back</p>
+                        </Link>
+
+                        <Link to="/">
                         <button className='bg-dark'>Finish</button>
+                        </Link>
                     </div>
                     
                 </div>
