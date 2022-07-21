@@ -101,5 +101,54 @@
     padding-bottom: 40px;
 }
 
+.show-more{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 13px;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
+.share-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.share-more-container{
+    display: inline-flex;
+}
+
+.buy-now{
+    background: #222222;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 74.5px;
+    padding-right: 74.5px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box-save{
+   padding: 12px;
+}
+
+.box-share{
+    padding: 12px;
+
+}
+
+.box-save, .box-share{
+    margin-left: 11px;
+    background: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+}
 
 /* 731 */

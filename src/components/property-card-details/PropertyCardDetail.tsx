@@ -2,6 +2,10 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import './propertycarddetail.css'
 import Property from "../../asserts/image/Frame 24.png"
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import ShareIcon from '@mui/icons-material/Share';
+import SingleBedIcon from '@mui/icons-material/SingleBed';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 const PropertyCardDetails = ()=>{
     return(
@@ -37,11 +41,15 @@ const PropertyCardDetails = ()=>{
                     <div className="property-description-realtor">
                         <p>3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.</p>
                     </div>
-                    <p>Show more </p>
-                    <div>
-                        <button>Buy now:  ₦30,000,000</button>
-                        <button></button>
-                        <button></button>
+                    <div className="share-more-container">
+                        <p className="show-more">Show more </p>
+                        <p><KeyboardArrowRightIcon/></p>
+                    </div>
+                   
+                    <div className="share-buy">
+                        <button className="buy-now">Buy now:  ₦30,000,000</button>
+                        <button className="box-save"><AcUnitIcon/></button>
+                        <button className="box-share"><ShareIcon/></button>
                     </div> 
                 </div>
             </div>
