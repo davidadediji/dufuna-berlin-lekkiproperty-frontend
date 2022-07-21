@@ -6,7 +6,11 @@ const Navbar = ()=>{
     return(
         <nav className='navbar'>
         <ul className='nav-list'>
-            <li>Home</li>
+        <li>
+            <Link to="/">
+           Home
+            </Link>
+            </li>
             <li>Office Space </li>
             <li>Flats and Apartments</li>
             <li>Lands</li>

@@ -16,8 +16,10 @@ const Header = ()=>{
         <>
          <header className='header'>
             <div className='header-logo'>
+                <Link className='no-underline' to="/">
                 <img src={Logo} alt="" />
                 <span>AGENTLY</span>
+                </Link>
             </div>
             <div>
                 <Search/>

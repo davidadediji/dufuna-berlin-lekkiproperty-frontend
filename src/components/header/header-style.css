@@ -19,7 +19,8 @@
   }
   
   .header-logo{
-   display: inline-flex;
+   display: flex;
+   align-items: center;
   }
   
   .header-logo img{
