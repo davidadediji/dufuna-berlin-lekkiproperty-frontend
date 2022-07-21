@@ -2,6 +2,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import MainImg from '../../asserts/image/mainimg.png'
 import './property-add-style.css'
 import { propertyDetails } from '../../models/propertyDetails';
+import { Link } from 'react-router-dom';
 
 const PropertyAdd = ()=>{
     return(
@@ -11,9 +12,12 @@ const PropertyAdd = ()=>{
             </div>
             <div className='property-add-layout'>
                 <div className='property-add-inputs'>
+                    <Link to="/">
+                   
                     <div className='property-close'>
                         <CloseIcon/>
                     </div>
+                    </Link>
                     
                     <div className='property-add-type'>
                         <p className='property-type-q'>What type of property?</p>
@@ -49,8 +53,13 @@ const PropertyAdd = ()=>{
                         <hr className='deep-black' />
                     </div>
                     <div className='bottom-nav'>
+                        <Link to="/">
                         <p className='back'>Back</p>
+                        </Link>
+
+                        <Link to="/property-2">
                         <button className='bg-dark'>Next</button>
+                        </Link>
                     </div>
             </div>
 

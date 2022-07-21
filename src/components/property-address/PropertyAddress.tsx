@@ -2,6 +2,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';import CloseIcon fro
 import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
 import MainImg from '../../asserts/image/mainimg.png'
 import './property-address-style.css'
+import { Link } from 'react-router-dom';
 
 const PropertyAddress = ()=>{
     return(
@@ -11,9 +12,11 @@ const PropertyAddress = ()=>{
         </div>
         <div className='property-address-layout'>
             <div className="property-address-inputs">
+                <Link to="/">
                 <div className='close'>
                     <CloseIcon />
                 </div>
+                </Link>
                 <div className='property-address'>
                     <p>Property Address</p>
                     <div className='property-address-text'>
@@ -93,8 +96,13 @@ const PropertyAddress = ()=>{
                 <hr className='deep-dark-40'/>
             </div>
             <div className='bottom-nav'>
+                <Link to="/property-1">
                 <p className='back'>Back</p>
+                </Link>
+
+                <Link to="/property-3">
                 <button className='bg-dark'>Next</button>
+                </Link>
             </div>
 
         </div>

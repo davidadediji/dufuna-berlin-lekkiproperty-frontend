@@ -1,6 +1,7 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MainImg from '../../asserts/image/mainimg.png'
 import './property-details-style.css'
+import { Link } from 'react-router-dom';
 
 const PropertyDetails = ()=>{
     return(
@@ -10,9 +11,12 @@ const PropertyDetails = ()=>{
             </div>
             <div className='property-owner-layout'>
                 <div className='property-owner-inputs'>
+                    <Link to="/">
+                   
                     <div className='property-close'>
                         <CloseIcon/>
                     </div>
+                    </Link>
                     <div className='property-owner'>
                         <p>Property Owner</p>
                         <div className='property-owner-input'>
@@ -46,8 +50,13 @@ const PropertyDetails = ()=>{
                 </div>
                 
                 <div className='bottom-nav'>
+                    <Link to="/property-2">
                     <p className='back'>Back</p>
+                    </Link>
+
+                    <Link to="/property-4">
                     <button className='bg-dark'>Next</button>
+                    </Link>
                 </div>
             </div>
         </div>
